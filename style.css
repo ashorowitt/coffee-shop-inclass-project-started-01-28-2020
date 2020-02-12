@@ -1,0 +1,159 @@
+/* GLOBAL STYLES */
+/* the body tag below allows for there to not be white space around the body */
+*{
+    padding:0px;
+    margin:0px;
+}
+body {
+    padding: 0px; 
+    margin: 0px; 
+    font-family: 'Quicksand', sans-serif;
+}
+a {
+    color: rgb(83, 94, 219); 
+}
+a:hover {
+    color: rgb(150, 2, 230);  
+}
+/* NAVBAR */
+.navbar {
+    height: 200px; 
+    background-color: rgb(235, 233, 221); 
+    /* these position, top and width tags allow for the navbar
+    to stay in place when scrolling down the page */
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+.navbar-image {
+    height: 185px; 
+    width: 250px; 
+}
+.navbar-nav {
+    list-style: none; 
+    float: right; 
+}
+.nav-item {
+    float: left; 
+    padding: 20px; 
+    font-size: 24px; 
+    font-weight: 600px; 
+    /* below is an example of what you can do with BORDER. done by Jake */
+    /* background-color: aqua; 
+    border: 5px solid white; 
+    border-radius: 20px;  */
+   
+}
+/* .nav-item:hover {
+    border: solid /* or dotted or something */ /* else yellow; 
+} */
+
+/* this is another way of setting up your hero image 
+   rather than just putting the image source in the HTML portion */
+.hero-image {
+    height: 1000px; 
+    width: 100%; 
+    background-image: url("./img/HERO-IMAGE.jpg"); 
+    background-size: cover; 
+}
+.home-content {
+    height: 600px; 
+    width: 100%; 
+    background-color: rgb(5, 5, 5); 
+}
+.content-img {
+    height: 400px; 
+    width: 270px; 
+    background-image: url("./img/bottom-homepage-image.jpg"); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    display: inline-block; 
+    /* position: relative;  */
+    margin-left: 350px; 
+    padding: 100px; 
+    
+    float:left;
+}
+.content-para {
+    color: rgb(255, 255, 255); 
+    height: 400px; 
+    width: 270px; 
+    background-color: rgb(5, 5, 5); 
+    /* position: relative;  */
+    margin-right: 350px;  
+    
+    float:right;
+}
+.contact-column { 
+    width: 50%; 
+    float: right; 
+}
+.about-container {
+    height: 700px;
+    width: 100%; 
+    margin-top: 250px; 
+    margin-bottom: 20px; 
+    padding-left: 50px; 
+}
+.about-column {
+    width: 400px; 
+    border: 3px solid rgb(5, 5, 5); 
+    float: left; 
+    padding: 25px 20px; 
+    margin-left: 20px; 
+    overflow: hidden; 
+    text-align: center; 
+}
+.about-img {
+    width: 400px; 
+    height: 300px; 
+}
+.about-audio {
+    margin-top: 250px; 
+}
+
+.footer{
+    background-color: rgb(235, 233, 221); 
+    height: 100px; 
+    width: 100%; 
+}
+.footer-item {
+    font-size: 20px; 
+    float: left; 
+    margin-top: 50px; 
+    margin-left: 300px; 
+}
+/* 
+you can also try this for the footer
+.name {
+    positon: relative; 
+    top: 50px; 
+    left: 200px; 
+ } */
+/* .hero-header {
+    color: red; 
+    position: relative; 
+    left: 300px; 
+    top: 300px; 
+} */
+/* .map-info {
+    background-color: white; 
+    height: 150px; 
+    width: 100px; 
+}
+.location-description { 
+    color: rgb(235, 233, 221);
+    position: relative; 
+    left: 500px; 
+    top: 50px; 
+    width: 1000px;  
+}
+.hero-map {
+    height: 500px; 
+    width: 100%; 
+    background-image: url("./img/coffee-shop-map.PNG"); 
+    background-size: cover; 
+}
+.about-page-title {
+    text-align: center; 
+} */
